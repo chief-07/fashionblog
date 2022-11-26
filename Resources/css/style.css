@@ -32,7 +32,7 @@ img {
   align-items: center;
   padding: 5rem;
   height: 35vh;
-  border: 2px solid black;
+  border-bottom: 2px solid black;
   font-family: agency fb;
 }
 .bloglife p {
@@ -90,7 +90,7 @@ section {
 }
 .left,
 .right {
-  border: 2px solid black;
+  border-bottom: 2px solid black;
   height: 200vh;
   background-color: white;
 }
@@ -148,7 +148,7 @@ section {
   display: flex;
   flex-direction: row;
   padding: 1.5rem;
-  border-bottom: 2px solid black;
+  border-bottom: 1px solid black;
 }
 .right {
   width: 30vw;
@@ -161,13 +161,8 @@ section {
   background-image: url(../media/avatar_smoke.jpg);
   background-size: cover;
 }
-.inline {
-  display: inline;
-}
-.grid2 {
-  display: flex;
-  justify-content: space-between;
-}
+
+
 .ul img {
   height: 4rem;
   width: 4rem;
@@ -195,6 +190,7 @@ footer a {
   padding:1rem  2rem;
   width: fit-content;
   margin-left: 2rem;
+  text-decoration: none;
 }
  footer{
   margin-top: 2rem;
@@ -203,8 +199,9 @@ footer a {
   display: flex;
   flex-direction: column;
   justify-content: center;
+
 }
-.advertising{
+.advertising h2{
   background-color: black;
   padding: 1rem;
   color: white;
@@ -215,4 +212,27 @@ footer a {
   padding: 1rem;
   color: white;
   font-family: agency fb;
+}
+.gray{
+  background-color: gray;
+margin: 2rem auto;
+  height: 40vh;
+  width: 25vw;
+}
+.like{
+  background-color: white;
+  border: 1px solid black;  
+  color: white;
+  font-family: agency fb;
+  color: black;
+  width: fit-content;
+  padding: 1rem 2rem;
+  margin-left: 2rem;
+}
+.flex{
+  display: flex;
+  justify-content: space-between;
+}
+.reply{
+  background-color: blac;
 }
