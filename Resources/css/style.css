@@ -26,6 +26,9 @@ img {
 .socials li {
   list-style: none;
 }
+iconify-icon {
+  color: white;
+}
 .search {
   padding: 0.5rem;
 }
