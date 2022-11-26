@@ -3,10 +3,14 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  background-color: rgb(235, 235, 235);
+}
 .socials {
   display: flex;
   background-color: black;
-  height: 2rem;
+  padding: 0.2rem 0.5rem 0.5rem 0.5rem;
+  height: 2.4rem;
   justify-content: space-between;
 }
 img {
@@ -16,7 +20,7 @@ img {
 .socials ul {
   display: flex;
   flex-direction: row;
-  gap: 2rem;
+  gap: 1.8rem;
   padding: 0.5rem;
 }
 .socials li {
@@ -33,7 +37,9 @@ img {
   padding: 5rem;
   height: 35vh;
   border-bottom: 2px solid black;
+  background-color: ;
   font-family: agency fb;
+  background-color: white;
 }
 .bloglife p {
   display: inline;
@@ -83,6 +89,7 @@ section {
   background-color: rgb(235, 235, 235);
 }
 .grid {
+  background-color: rgb(235, 235, 235);
   padding-top: 1.5rem;
   column-gap: 2rem;
   display: grid;
@@ -90,12 +97,13 @@ section {
 }
 .left,
 .right {
-  border-bottom: 2px solid black;
   height: 200vh;
-  background-color: white;
+  background-color: rgb(235, 235, 235);
 }
+
 .title {
   padding: 1rem;
+  background-color: white;
 }
 .title p {
   display: inline;
@@ -153,15 +161,9 @@ section {
 .right {
   width: 30vw;
 }
-.poop {
-  display: inline;
-  margin-left: 1rem;
-  height: 3rem;
-  width: 3rem;
-  background-image: url(../media/avatar_smoke.jpg);
-  background-size: cover;
+i {
+  color: white;
 }
-
 
 .ul img {
   height: 4rem;
@@ -171,7 +173,7 @@ section {
   margin-left: 1rem;
 }
 .popularpost h2 {
-  margin-top: 2rem
+  margin-top: 2rem;
   padding: 2rem;
 }
 .popularpost h2 {
@@ -180,59 +182,84 @@ section {
   font-family: agency fb;
   height: 3rem;
 }
-.popularpost{
-    margin-top:1rem;
+.popularpost {
+  margin-top: 1rem;
+  background-color: white;
 }
 footer a {
   background-color: black;
   color: white;
   font-family: agency fb;
-  padding:1rem  2rem;
+  padding: 1rem 2rem;
   width: fit-content;
   margin-left: 2rem;
   text-decoration: none;
 }
- footer{
-  margin-top: 2rem;
+footer {
+  margin-top: 10rem;
   height: 20vh;
   background-color: gray;
   display: flex;
   flex-direction: column;
   justify-content: center;
-
 }
-.advertising h2{
+.advertising h2 {
+  margin-top: 2rem;
   background-color: black;
   padding: 1rem;
   color: white;
   font-family: agency fb;
 }
-.popularpost h2{
+.advertising {
+  background-color: white;
+  padding-bottom: 0.5rem;
+}
+.popularpost h2 {
   background-color: black;
   padding: 1rem;
   color: white;
   font-family: agency fb;
 }
-.gray{
+.gray {
   background-color: gray;
-margin: 2rem auto;
+  margin: 1rem auto;
   height: 40vh;
   width: 25vw;
 }
-.like{
+.like {
   background-color: white;
-  border: 1px solid black;  
+  border: 1px solid black;
   color: white;
   font-family: agency fb;
   color: black;
   width: fit-content;
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem;
   margin-left: 2rem;
+  height: fit-content;
 }
-.flex{
+.flex {
   display: flex;
   justify-content: space-between;
 }
-.reply{
-  background-color: blac;
+.reply {
+  background-color: black;
+  color: white;
+  font-family: agency fb;
+  padding: 0.5rem 2rem;
+  margin-right: 2rem;
+  height: fit-content;
+}
+.ul a {
+  text-decoration: none;
+  color: black;
+}
+.ul li:hover {
+  background-color: rgb(179, 179, 179);
+  transition: 200ms ease;
+}
+.fashion {
+  margin-top: 1rem;
+}
+.btn {
+  margin-top: 1rem;
 }
