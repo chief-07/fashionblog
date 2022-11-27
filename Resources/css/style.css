@@ -72,11 +72,17 @@ iconify-icon {
   color: black;
   width: fit-content;
   font-family: agency fb;
+  transition: 400ms ease;
+}
+.btn:hover {
+  background-color: white;
 }
 .img {
   color: white;
   height: 100vh;
   background-image: url(../media/janefashion.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
   justify-content: center;
