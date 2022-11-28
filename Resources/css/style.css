@@ -80,7 +80,7 @@ iconify-icon {
 .img {
   color: white;
   height: 100vh;
-  background-image: url(../media/janefashion.jpg);
+  background-image: url(media/janefashion.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   display: flex;
